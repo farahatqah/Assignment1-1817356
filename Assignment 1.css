@@ -1,0 +1,79 @@
+body{
+  font-family: sans-serif;
+}
+img{
+  width: auto;
+  height: 80%;
+  margin: 10px;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left{
+  left: 0;
+}
+a{
+  padding: 10px;
+}
+.right{
+  right: 0;
+  background-color: white;
+}
+.clip-polygon{
+  clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+}
+.topright {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20%;
+  height :auto;
+}
+h2{
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 50px;
+}
+h3{
+  padding-left: 30px;
+}
+hr{
+  max-width: 30px;
+  margin-left: 25px;
+  padding-left: 35px;
+  background-color: #2BF7B3;
+  height: 2px;
+}
+.MatricNo, .EnterPassword{
+  margin-top: 10px;
+  margin-left: 30px;
+  padding-left: 5px;
+  width: 300px;
+  height: 30px;
+  position: inherit;
+}
+.Remember{
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.loginButton{
+  margin-left: 30px;
+  margin-top: 5px;
+  width: 310px;
+  height: 30px;
+}
+.bottomRight {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+  margin-bottom: 150px;
+  font-size: 15px;
+}
